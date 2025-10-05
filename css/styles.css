@@ -275,7 +275,7 @@ body {
     font-size: 0.95em; 
     font-style: italic;
     color: #555; /* Gray out the author list slightly */
-    margin: 5px 0 0 0; /* Minimal spacing around authors */
+    margin: 5px 0 0 5px; /* Minimal spacing around authors */
 }
 
 /* Styling for the SSRN link */
@@ -286,6 +286,7 @@ body {
 .paper-title a:hover, .paper-details a:hover {
     text-decoration: underline;
 }
+
 
 
 
