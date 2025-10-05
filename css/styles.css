@@ -112,12 +112,23 @@ body {
     }
     .sidebar {
         width: 100%;
-        border-right: none; /* Remove border on smaller screens */
-        border-bottom: 2px solid #e0e0e0; /* Add bottom border for separation */
+        border-right: none;
+        border-bottom: 2px solid #e0e0e0;
     }
     .content {
+        /* The 20px padding here is now responsible for the left/right margins */
         padding: 20px;
     }
+    /* === ADD/UPDATE THESE RULES === */
+    .nav-top {
+        /* Reset horizontal padding (0) but keep vertical padding (10px) */
+        padding: 10px 0;
+    }
+    .home {
+        /* Reset horizontal padding (0) but keep vertical padding (40px) */
+        padding: 40px 0;
+    }
+    /* ============================== */
 }
 @media (max-width: 768px) {
     .sidebar .profile img {
@@ -286,6 +297,7 @@ body {
 .paper-title a:hover, .paper-details a:hover {
     text-decoration: underline;
 }
+
 
 
 
