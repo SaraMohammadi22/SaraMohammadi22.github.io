@@ -183,7 +183,7 @@ body {
 }
 
 .contact h2 {
-    color: #005bb5; /* Template blue color for the title */
+    color: #002248; /* Template blue color for the title */
     font-size: 1.2em;
     margin-bottom: 15px;
 }
@@ -196,7 +196,7 @@ body {
 .contact-link img {
     width: 36px; /* Adjust size as needed */
     height: 36px; /* Adjust size as needed */
-    vertical-align: middle; /* Align icons vertically in the middle */
+    vertical-align: middle; 
     transition: opacity 0.3s;
 }
 
@@ -247,6 +247,7 @@ body {
     margin-top: 10px;
     color: #333; /* Adjust color if needed */
 }
+
 
 
 
