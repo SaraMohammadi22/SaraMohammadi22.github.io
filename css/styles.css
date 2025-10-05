@@ -248,6 +248,46 @@ body {
     color: #333; /* Adjust color if needed */
 }
 
+/* CSS for the Main List (The Black Squares) */
+.research-list {
+    list-style-type: square; /* Makes the main list markers black squares */
+    padding-left: 20px;
+}
+
+/* CSS for the Nested Awards List (The Circles) */
+.paper-details {
+    /* Indents the list slightly more */
+    padding-left: 30px; 
+    /* Changes the markers to open circles */
+    list-style-type: circle; 
+    margin-top: 10px; /* Space between authors and awards list */
+    margin-bottom: 20px; /* Space before the next paper */
+}
+
+/* Styling for the Paper Title */
+.paper-title {
+    font-size: 1.1em; /* Make the title stand out a bit */
+}
+
+/* Styling for the Author Line */
+.authors {
+    /* Use a slightly smaller/lighter font for the author line */
+    font-size: 0.95em; 
+    font-style: italic;
+    color: #555; /* Gray out the author list slightly */
+    margin: 5px 0 0 0; /* Minimal spacing around authors */
+}
+
+/* Styling for the SSRN link */
+.paper-title a, .paper-details a {
+    color: #002248; /* Use your UCL blue for links */
+    text-decoration: none;
+}
+.paper-title a:hover, .paper-details a:hover {
+    text-decoration: underline;
+}
+
+
 
 
 
