@@ -95,9 +95,10 @@ body {
     padding: 40px;
 }
 .home h2 {
-    font-size: 2.5em;
+    font-size: 1.5em;
     margin-bottom: 20px;
     color: #002248; /* UCL Blue color for headings */
+    font-weight: bold;
 }
 .home p {
     font-size: 1.2em;
@@ -246,6 +247,7 @@ body {
     margin-top: 10px;
     color: #333; /* Adjust color if needed */
 }
+
 
 
 
