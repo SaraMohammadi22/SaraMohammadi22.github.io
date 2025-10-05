@@ -65,7 +65,7 @@ body {
     flex-direction: column;
 }
 .nav-top {
-    background: #003399; /* Imperial Blue background for the top nav */
+    background: #002248; /* UCL Blue background for the top nav */
     padding: 10px 20px;
 }
 .nav-top nav ul {
@@ -246,6 +246,7 @@ body {
     margin-top: 10px;
     color: #333; /* Adjust color if needed */
 }
+
 
 
 
