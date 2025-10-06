@@ -315,7 +315,7 @@ body {
 
 /* Styling for the Main Title */
 .event-title {
-    font-size: 1.2em; /* Makes the title larger */
+    font-size: 1em; /* Makes the title larger */
     font-weight: bold; /* Makes the title bold */
     color: #333; /* Dark color for the title */
     margin-bottom: 2px;
@@ -323,7 +323,7 @@ body {
 
 /* Styling for Location and Date */
 .event-detail {
-    font-size: 1em; /* Normal size */
+    font-size: 0.9em; /* Normal size */
     font-weight: normal; 
     color: #333; /* Keeps the text dark */
     margin-top: 0;
@@ -332,11 +332,12 @@ body {
 
 /* Styling for the Time (Light Gray) */
 .event-location {
-    font-size: 1em; 
+    font-size: 0.9em; 
     font-weight: normal;
     color: #333; /* Light gray color to match the image */
     margin-top: 2px;
 }
+
 
 
 
