@@ -101,9 +101,9 @@ body {
     font-weight: bold;
 }
 .home p {
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin-bottom: 20px;
-    color: #555;
+    color: #333;
 }
 /* Responsive Design */
 @media (max-width: 1024px) {
@@ -337,6 +337,7 @@ body {
     color: #333; /* Light gray color to match the image */
     margin-top: 2px;
 }
+
 
 
 
