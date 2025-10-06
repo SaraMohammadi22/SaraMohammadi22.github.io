@@ -298,6 +298,45 @@ body {
     text-decoration: underline;
 }
 
+/* Styling for the Event List Container */
+.event-list {
+    list-style: disc; /* Use a standard black disc bullet */
+    padding-left: 20px;
+}
+
+/* Ensures each event entry is a block for the styling to work */
+.event-list li {
+    margin-bottom: 20px; /* Adds space between each event bullet point */
+}
+.event-entry {
+    display: flex;
+    flex-direction: column; /* Stacks all spans vertically */
+}
+
+/* Styling for the Main Title */
+.event-title {
+    font-size: 1.2em; /* Makes the title larger */
+    font-weight: bold; /* Makes the title bold */
+    color: #333; /* Dark color for the title */
+    margin-bottom: 2px;
+}
+
+/* Styling for Location and Date */
+.event-detail {
+    font-size: 1em; /* Normal size */
+    font-weight: normal; 
+    color: #333; /* Keeps the text dark */
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+/* Styling for the Time (Light Gray) */
+.event-location {
+    font-size: 1em; 
+    font-weight: normal;
+    color: #333; /* Light gray color to match the image */
+    margin-top: 2px;
+}
 
 
 
